@@ -16,6 +16,10 @@ import fr.theshark34.swinger.event.SwingerEvent;
 import fr.theshark34.swinger.event.SwingerEventListener;
 import fr.theshark34.swinger.textured.STexturedButton;
 
+/*
+ *	Simple Pword Gen; By Andrei.
+ */
+
 public class MainFrame extends JFrame implements SwingerEventListener,EventListener {
 	
 	public static final double AppVersion = 1.0;
@@ -94,7 +98,7 @@ public class MainFrame extends JFrame implements SwingerEventListener,EventListe
 	}
 		
 	/*
-	 *  Tokenize > Exemple : System.out.println(tokenize(20)); le 20 est la longueur de charactËre que va prendre le string donnÈ
+	 *  Tokenize > Exemple : System.out.println(tokenize(20)); le 20 est la longueur de charact√®re que va prendre le string donn√©
 	 *  
 	 *  Exemple :
 	 *  public static void main(String args[]) { tokenize(30); } 
