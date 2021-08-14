@@ -56,7 +56,8 @@ public class MainFrame extends JFrame implements SwingerEventListener,EventListe
 		setSize(390,160);
 		setResizable(false);
 		setLocationRelativeTo(null);
-		
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
 		spinner.setBounds(330,10,40,30);
 		add(spinner);
 		
